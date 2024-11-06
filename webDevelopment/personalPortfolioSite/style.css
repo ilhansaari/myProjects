@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+body{
+    background-color: #0A0A12;
+    border: 2px solid #FEFEFE;
+}
+div{
+    width: 90%;
+    margin: auto;
+    height: max-content;
+    flex-direction: column;
+    color: #FEFEFE;
+}
+nav{
+    display: flex;
+    height: 60px;
+}
+button{
+    margin: 0 30px;
+    background-color: #0A0A12;
+    font-size: 15px;
+}
+button:hover{
+    opacity: 50%;
+}
+footer table{
+    margin: auto;
+}
+h1{
+    font-family: serif;
+}
+h2{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #FEFEFE;
+}
+a:hover{
+    opacity: 50%;
+}
+.indexAboutMe h1{
+    text-align: center;
+}
+.indexMyBlogs h1{
+    text-align: center;
+}
+.indexProjects h1{
+    text-align: center;
+}
+.cvSummary h2{
+    text-align: center;
+}
+.cvExperience h2{
+    text-align: center;
+}
+.cvCertification h2{
+    text-align: center;
+}
+.cvReferences h2{
+    text-align: center;
+}
+.cvEducation h2{
+    text-align: center;
+}
+.cvSkill h2{
+    text-align: center;
+}
+.cvLanguages h2{
+    text-align: center;
+}
