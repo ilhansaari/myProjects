@@ -1,0 +1,35 @@
+html,body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+body{
+    background-color: rgb(181, 198, 216);
+    border: 3px solid aliceblue;
+    width: 90%;
+    height: 90vh;
+}
+::placeholder{
+    color: black;
+    text-align: center;
+}
+input{
+    background-color: aliceblue;
+    width: 50vh;
+    border-color: rgb(181, 198, 216);
+}
+textarea{
+    background-color: aliceblue;
+    width: 50vh;
+    height: 10vh;
+    border-color: rgb(181, 198, 216);
+}
+button{
+    width: 50.5vh;
+    background-color: aliceblue;
+    border-color: rgb(181, 198, 216);
+}
+h1{
+    text-align: center;
+    color: rgb(80, 79, 79);
+}
